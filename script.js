@@ -16,7 +16,7 @@ axios
 var updateTime= setInterval(function() {
     var date= new Date
     
-    var hour= 23 - date.getUTCHours()
+    var hour = 23 - date.getUTCHours()
     var minute = 59 - date.getUTCMinutes()
     var seconds = 60 - date.getUTCSeconds()
 
